@@ -1,0 +1,14 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(¥–Ò¬ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ûª¯ˆ
+U
+java:S1161+":Add the "@Override" annotation above this method signature(ÿŸ¾Ðüÿÿÿÿ
+C	java:S108.")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ
+U
+java:S1161<":Add the "@Override" annotation above this method signature(ÿŸ¾Ðüÿÿÿÿ
+?
+java:S5413@")Verify that "remove()" is used correctly.(ó­Âß
+A
+java:S1481-"&Remove this unused "i" local variable.(¨Øææûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(×À´·üÿÿÿÿ

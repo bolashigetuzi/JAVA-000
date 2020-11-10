@@ -1,0 +1,16 @@
+
+>
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+P	java:S125"<This block of commented-out lines of code should be removed.(ªÖü
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¤ à½
+M	java:S106"9Replace this use of System.out or System.err by a logger.(›µð9
+P	java:S125"<This block of commented-out lines of code should be removed.(ªÖü
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­Ï¯ä
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ú‰ê³
+>
+java:S1148 "#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ùžß§ÿÿÿÿÿ

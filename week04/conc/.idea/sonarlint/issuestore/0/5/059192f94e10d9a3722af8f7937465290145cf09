@@ -1,0 +1,19 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø¦Ÿ‰ùÿÿÿÿ
+=
+java:S1604 "(Make this anonymous inner class a lambda(£·®
+>
+java:S1604%"(Make this anonymous inner class a lambda(ÿïŞß
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(Óü¨Üøÿÿÿÿ
+a
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(øôÔ×ûÿÿÿÿ
+^
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ
+C	java:S108")Either remove or fill this block of code.(øôÔ×ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Óü¨Üøÿÿÿÿ
+a
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(øôÔ×ûÿÿÿÿ
+^
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ
+C	java:S108")Either remove or fill this block of code.(øôÔ×ûÿÿÿÿ

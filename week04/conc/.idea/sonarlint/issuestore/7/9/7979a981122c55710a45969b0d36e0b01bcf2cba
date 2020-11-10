@@ -1,0 +1,22 @@
+
+=
+java:S2189.""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+=
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³ÊÉr
+>
+java:S1148$"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S11484"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(æõƒµúÿÿÿÿ
+\
+java:S2142#"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ÑõÞì
+\
+java:S21423"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(·ÞÜÆ
+@
+java:S1659D"%Declare "takeptr" on a separate line.(ù¸«³øÿÿÿÿ
+>
+java:S1659D"#Declare "count" on a separate line.(ù¸«³øÿÿÿÿ

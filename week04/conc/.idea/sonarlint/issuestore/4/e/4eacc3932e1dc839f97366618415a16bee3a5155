@@ -1,0 +1,19 @@
+
+\
+java:S2142)"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+>
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(ø±‹‡
+>
+java:S1148*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148,"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(òñ«Ê
+_
+java:S2147+"DCombine this catch with the one at line 41, which has the same body.(†«”Ïüÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şø‡şÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(ô¹
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³ÊÉr
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›ÁåÃøÿÿÿÿ

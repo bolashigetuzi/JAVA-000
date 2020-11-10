@@ -1,0 +1,18 @@
+
+f
+java:S1192"PDefine a constant instead of duplicating this literal "è¿”å›žè¯¥çº¿ç¨‹" 4 times.(ÙôØ·
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ö¿¾ÿúÿÿÿÿ
+>
+java:S1148
+"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+\
+java:S2142	"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÁÃÚ¡
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‡ûúà
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›€¢­ûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÙôØ·
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¿ƒ¨Ç
+S	java:S106"9Replace this use of System.out or System.err by a logger.(·ªûØüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×ÇÓ²
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¨ýÅá
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ž¤Ó·

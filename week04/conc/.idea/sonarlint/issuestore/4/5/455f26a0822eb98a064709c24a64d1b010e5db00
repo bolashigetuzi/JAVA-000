@@ -1,0 +1,9 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µê²‹
+>
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1604	"(Make this anonymous inner class a lambda(ÉãÃ®
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ù­Ø©øÿÿÿÿ

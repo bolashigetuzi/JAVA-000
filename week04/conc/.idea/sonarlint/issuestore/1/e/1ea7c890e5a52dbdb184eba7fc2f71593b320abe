@@ -1,0 +1,24 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(Ž˜Çž
+Y
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ŸØžÿúÿÿÿÿ
+T
+java:S1155&">Use isEmpty() to check whether the collection is empty or not.(ÖçŸã
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ûª¯ˆ
+>
+java:S1148-"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1604"(Make this anonymous inner class a lambda(ÉãÃ®
+>
+java:S1604""(Make this anonymous inner class a lambda(ÉãÃ®
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ž˜Çž
+V
+java:S1854";Remove this useless assignment to local variable "content".(±¨‚Ïùÿÿÿÿ
+M
+java:S1135"2Complete the task associated to this TODO comment.(ŸØžÿúÿÿÿÿ
+\
+java:S2142,"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+G
+java:S1481",Remove this unused "content" local variable.(±¨‚Ïùÿÿÿÿ
