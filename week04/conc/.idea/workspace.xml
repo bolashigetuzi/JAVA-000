@@ -2,72 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a35034-8817-4d38-be16-7c95f67b67d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/DaemonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/Runner1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/Runner2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/RunnerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/ThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/ThreadB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/ThreadC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/ThreadMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/ThreadMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/op/Join.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/op/WaitAndNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/sync/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/sync/Cref.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/sync/Thread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/sync/Thread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0301/sync/Thread3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/atomic/AtomicCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/atomic/AtomicMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/atomic/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/atomic/LongDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/atomic/SyncCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/ConditionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/Count2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/Count3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/LockMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/LockSupportDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/ObjectCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/ReentrantLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/ReentrantReadWriteLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/ReentrantReadWriteLockDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/ThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/lock/ThreadB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/threadpool/ExecutorServiceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/threadpool/NewCachedThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/threadpool/NewFixedThreadExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/threadpool/NewScheduledThreadExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0302/threadpool/NewSingleThreadExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/Homework03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/collection/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/collection/CopyOnWriteArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/collection/CopyOnWriteArrayListDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/collection/CopyOnWriteArrayListDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/collection/LinkedHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/collection/SyncListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/collection/TreeMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/future/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/future/FutureDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/future/FutureTask1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/stream/StreamParallelDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/threadlocal/ThreadLocalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/tool/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/tool/CountDownLatchDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/tool/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/tool/CyclicBarrierDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/tool/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/tool/SemaphoreDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java0/conc0303/tool/SemaphoreDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java0/homework/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java0/homework/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java0/homework/JoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java0/homework/LockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java0/homework/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java0/homework/SynchronizedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java0/homework/WhileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,33 +25,101 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0303/tool/CyclicBarrierDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="920">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0303/Homework03.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/CyclicBarrierDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="276">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/CountDownLatchDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-291">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0301/Runner1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0303/tool/SemaphoreDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/JoinDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/WhileDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/Result.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0303/tool/CountDownLatchDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-115">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/SynchronizedDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="989">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -118,6 +128,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/java0/conc0303/tool/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java0/homework/LockDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java0/homework/SynchronizedDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java0/homework/CyclicBarrierDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java0/homework/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java0/homework/JoinDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java0/homework/WhileDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java0/homework/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java0/homework/SemaphoreDemo.java" />
       </list>
     </option>
   </component>
@@ -137,7 +156,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-86" />
     <option name="width" value="963" />
     <option name="height" value="876" />
@@ -199,6 +218,45 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java0" type="462c0819:PsiDirectoryNode" />
+              <item name="conc0302" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java0" type="462c0819:PsiDirectoryNode" />
+              <item name="conc0302" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java0" type="462c0819:PsiDirectoryNode" />
+              <item name="conc0302" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java0" type="462c0819:PsiDirectoryNode" />
+              <item name="conc0302" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java0" type="462c0819:PsiDirectoryNode" />
               <item name="conc0303" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,6 +299,25 @@
               <item name="conc0303" type="462c0819:PsiDirectoryNode" />
               <item name="threadlocal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="conc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java0" type="462c0819:PsiDirectoryNode" />
+              <item name="conc0303" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java0" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -250,6 +327,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -271,6 +349,82 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.CountDownLatchDemo">
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java0.homework.CountDownLatchDemo" />
+      <module name="conc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java0.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java0.homework.CyclicBarrierDemo" />
+      <module name="conc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java0.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java0.conc0303.tool.CyclicBarrierDemo" />
+      <module name="conc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java0.conc0303.tool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java0.homework.JoinDemo" />
+      <module name="conc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java0.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java0.homework.WhileDemo" />
+      <module name="conc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java0.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.WhileDemo" />
+        <item itemvalue="Application.JoinDemo" />
+        <item itemvalue="Application.CyclicBarrierDemo (1)" />
+        <item itemvalue="Application.CyclicBarrierDemo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -282,18 +436,26 @@
       <option name="presentableId" value="Default" />
       <updated>1604978725454</updated>
       <workItem from="1604978728641" duration="916000" />
-      <workItem from="1604985259649" duration="708000" />
+      <workItem from="1604985259649" duration="11521000" />
     </task>
+    <task id="LOCAL-00001" summary="第四周作业代码">
+      <created>1604987166439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604987166439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1624000" />
+    <option name="totallyTimeSpent" value="12437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2570694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23200513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -302,10 +464,11 @@
       <window_info id="Project Explorer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Job Explorer" order="8" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3328841" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3018868" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -330,6 +493,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第四周作业代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四周作业代码" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -338,17 +505,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0303/Homework03.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0301/Runner1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="207">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0301/Runner1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0302/lock/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0302/lock/ReentrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0302/lock/Count.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0302/lock/ConditionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0303/tool/CyclicBarrierDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0303/Homework03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/LockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0303/tool/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0303/tool/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/JoinDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/SynchronizedDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/WhileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/homework/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java0/conc0303/tool/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>
