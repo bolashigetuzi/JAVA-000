@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+    <!--    学校类相关配置-->
+    <bean id="student1" class="com.example.springbootfx.autowired.entity.Student">
+        <property name="id" value="1"/>
+        <property name="name" value="1"/>
+    </bean>
+    <bean id="student2" class="com.example.springbootfx.autowired.entity.Student">
+        <property name="id" value="2"/>
+        <property name="name" value="2"/>
+    </bean>
+
+    <bean id="class1" class="com.example.springbootfx.autowired.entity.MyClass">
+        <property name="students">
+            <list>
+                <ref bean="student1"/>
+                <ref bean="student2"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="school1" class="com.example.springbootfx.autowired.entity.School">
+        <property name="myClasses">
+            <list>
+                <ref bean="class1"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>
