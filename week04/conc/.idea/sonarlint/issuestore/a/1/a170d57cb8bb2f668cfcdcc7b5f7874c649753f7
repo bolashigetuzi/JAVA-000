@@ -1,18 +1,18 @@
 
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÍÐ€«ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Žôá±
 >
 java:S1148+"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³ÊÉr
-V	java:S125'"<This block of commented-out lines of code should be removed.(û Ã‚ÿÿÿÿÿ
-Œ
-java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú7
 C
 java:S1604"(Make this anonymous inner class a lambda(Ä ûÉøÿÿÿÿ
 N	java:S106
 "9Replace this use of System.out or System.err by a logger.(Ê‰ÛÌ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Žôá±
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³ÊÉr
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(…â¿‰üÿÿÿÿ
+V	java:S125'"<This block of commented-out lines of code should be removed.(û Ã‚ÿÿÿÿÿ
 S	java:S106"9Replace this use of System.out or System.err by a logger.(…ÍÍ¬üÿÿÿÿ
 g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³ÂÁÊúÿÿÿÿ
 S	java:S106("9Replace this use of System.out or System.err by a logger.(•£Øâûÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÍÐ€«ùÿÿÿÿ
 Q	java:S125"<This block of commented-out lines of code should be removed.(—‡³
-S	java:S106%"9Replace this use of System.out or System.err by a logger.(…â¿‰üÿÿÿÿ
+Œ
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú7

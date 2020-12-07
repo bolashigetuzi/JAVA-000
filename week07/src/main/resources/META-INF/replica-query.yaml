@@ -1,0 +1,26 @@
+dataSources:
+  primary_ds: !!com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test_master?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+  replica_ds_0: !!com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3307/test_slave?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+
+rules:
+- !REPLICA_QUERY
+  dataSources:
+    pr_ds:
+      name: pr_ds
+      primaryDataSourceName: primary_ds
+      replicaDataSourceNames: [replica_ds_0]
+      loadBalancerName: roundRobin
+  loadBalancers:
+    roundRobin:
+      type: ROUND_ROBIN
+
+props:
+  sql-show: false

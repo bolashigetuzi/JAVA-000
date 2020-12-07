@@ -1,25 +1,25 @@
 
-W
-java:S2209"5Change this instance-reference to a static reference.(šîùúşÿÿÿÿ8“ñ¡‰Û.
-c
-java:S2142
-"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8‡Á£‰Û.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶Ôˆû
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‡Á£‰Û.
+R
+java:S2209"5Change this instance-reference to a static reference.(äÂµá8š’ ‰Û.
 W
 java:S2209"5Change this instance-reference to a static reference.(ò ¿­øÿÿÿÿ8É¡£‰Û.
 H
 java:S2440"&Remove this instantiation of "Result".(ë¾İùüÿÿÿÿ8¸çœ‰Û.
-R
-java:S2209"5Change this instance-reference to a static reference.(ÛÃ–¦8É¡£‰Û.
-R
-java:S2209"5Change this instance-reference to a static reference.(äÂµá8š’ ‰Û.
-R
-java:S2209"5Change this instance-reference to a static reference.(ÛÃ–¦8É¡£‰Û.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(äÂµá8èïŸ‰Û.
-E
-java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‡Á£‰Û.
 U	java:S106"9Replace this use of System.out or System.err by a logger.(¹ÃÌÓ8É¡£‰Û.
-W
-java:S2209"5Change this instance-reference to a static reference.(ô¸æÍùÿÿÿÿ8É¡£‰Û.
+c
+java:S2142
+"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8‡Á£‰Û.
+R
+java:S2209"5Change this instance-reference to a static reference.(ÛÃ–¦8É¡£‰Û.
+R
+java:S2209"5Change this instance-reference to a static reference.(ÛÃ–¦8É¡£‰Û.
 R
 java:S2209"5Change this instance-reference to a static reference.(¹ÃÌÓ8É¡£‰Û.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(äÂµá8èïŸ‰Û.
+W
+java:S2209"5Change this instance-reference to a static reference.(šîùúşÿÿÿÿ8“ñ¡‰Û.
+W
+java:S2209"5Change this instance-reference to a static reference.(ô¸æÍùÿÿÿÿ8É¡£‰Û.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶Ôˆû
