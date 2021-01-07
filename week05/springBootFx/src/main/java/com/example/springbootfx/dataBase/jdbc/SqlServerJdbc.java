@@ -24,7 +24,10 @@ public class SqlServerJdbc {
 
     public List<DeliveryData> deliveryDataList(){
         List<DeliveryData> deliveryDataList = new ArrayList<>();
-        String sql ="SELECT d.id,d.create_date createDate FROM delivery_info d";
+    String sql =
+        "SELECT d.id,d.create_date createDate FROM delivery_info d left join CONTRACT_BASIC_INFO cb"
+            + " on d.contract_id=cb.id where cb.DEL_FLAG = '0' and cb.AUDIT_STATUS = '5'"
+            + " and cb.VALID_DATE BETWEEN '2018-01-01 00:00:00' and '2021-01-01 00:00:00'";
         try{
             preparedStatement = connection.prepareStatement(sql);
             ResultSet resultSet = preparedStatement.executeQuery();
@@ -63,15 +66,9 @@ public class SqlServerJdbc {
                 String receiveDate = extraData.getReceiveDate();
                 String signDigest = extraData.getSignDigest();
                 String authorityCode = extraData.getAuthorityCode();
-                if(isEmpty(directoryName)){
-                    errorType = "未匹配到目录";
-                    continue;
-                }
                 boolean strMatch = clientName.equals(clientNameExtra) && authorityClient.equals(authorityName)
                         && packageName.startsWith(directoryName);
-
                 if(strMatch){
-                    executeSuccess++;
                     String signCert = "";
                     if(!isEmpty(signDigest)){
                         signCert = signCert + signDigest;
@@ -92,6 +89,7 @@ public class SqlServerJdbc {
                         data.setSignCert(signCert);
                         isMatched = true;
                         isNotFirstMatch = true;
+                        dataAddList.add(data);
                     }
                 }else{
                     if(!clientName.equals(clientNameExtra) && authorityClient.equals(authorityName)
@@ -110,12 +108,14 @@ public class SqlServerJdbc {
                 notSuccess++;
                 String logTxt = errorType + ">------" + clientName + ":" + authorityName + ":" + directoryName + ":" + contractNo;
                 System.out.println(logTxt);
+            }else{
+                executeSuccess++;
             }
         }
         System.out.println("共匹配成功：" + executeSuccess + "条！");
         System.out.println("未匹配成功：" + notSuccess + "条！");
-        targetDataList.addAll(dataAddList);
-        return targetDataList;
+//        targetDataList.addAll(dataAddList);
+        return dataAddList;
     }
 
     public List<DeliveryData> matchDataDesc(List<DeliveryData> deliveryDataList,
@@ -123,6 +123,7 @@ public class SqlServerJdbc {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-M-d");
         Integer executeSuccess = 0;
         Integer notSuccess = 0;
+        List<String> contractNoList = new ArrayList<>();
         for(DeliveryData info:deliveryDataList){
             String id = info.getId();
             java.util.Date createDate = info.getCreateDate();
@@ -149,11 +150,17 @@ public class SqlServerJdbc {
                 }
             }
             if(!isMatched){
+                if(!contractNoList.contains(contractNo)){
+                    contractNoList.add(contractNo);
+                }
                 notSuccess++;
-                sb.append(contractNo);
-                System.out.println(sb.toString());
+                if(!isEmpty(contractNo)){
+                    sb.append(contractNo);
+                    System.out.println(sb.toString());
+                }
             }
         }
+        System.out.println("共有日期不匹配的记录有" + contractNoList.size() + "条！");
         System.out.println("共匹配日期成功：" + executeSuccess + "条！");
         System.out.println("未匹配日期成功：" + notSuccess + "条！");
         return deliveryDataList;
